@@ -12,7 +12,7 @@ genai.configure(api_key=os.environ.get("GOOGLE_API_KEY"))
 embedding_model = "models/embedding-001"
 qa_model = "gemini-1.5-pro"
 
-# FAISS settings
+# Chroma db settings
 CHROMA_INDEX_PATH = "./chroma_db"
 
 # Decoding settings
