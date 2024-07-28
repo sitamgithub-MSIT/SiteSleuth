@@ -31,12 +31,18 @@ def main():
             "Provide a website link and Click on the Submit & Process Button 🔗"
         )
 
-        if st.button("Submit & Process ✅"):
-            with st.spinner("Processing..."):
-                raw_document = get_web_document(website_url)
-                text_chunks = get_document_chunks(raw_document)
-                get_vector_store(text_chunks)
-                st.success("Done")
+        # Check if the website URL is valid and start processing
+        if website_url and website_url.startswith("https://"):
+            if st.button("Submit & Process ✅"):
+                with st.spinner("Processing..."):
+                    raw_document = get_web_document(website_url)
+                    text_chunks = get_document_chunks(raw_document)
+                    get_vector_store(text_chunks)
+                    st.success("Done")
+
+        # Display a warning message if the website URL is invalid
+        elif st.button("Submit & Process ✅"):
+            st.warning("Please provide a valid website link")
 
     # Main content area for displaying chat messages
     st.title("SiteSleuth🌐 - Chat with Websites")

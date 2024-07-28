@@ -13,7 +13,7 @@ from src.exception import CustomExceptionHandling
 # Get the embeddings from chunks
 def get_vector_store(chunks: List[str]):
     """
-    Creates a vector store using FAISS from a list of chunks.
+    Creates a vector store using Chroma from a list of chunks.
 
     Args:
         chunks (List[str]): A list of chunks to be used for creating the vector store.
