@@ -63,7 +63,7 @@ To get started with this project, follow the steps below:
 5. Install the required dependencies: `pip install -r requirements.txt`
 6. Run the Gradio application: `streamlit run app.py`
 
-**Note**: You need to have the Gemini API key to run the application. You can get the API key by signing up on the [Gemini API](https://geminiapi.com/). Once you have the API key, create a `.env` file in the root directory and add the following environment variables provided in the `.env.example` file. Replace the values with your API key.
+**Note**: You need to have the Gemini API key to run the application. You can get the API key by signing up on the [Gemini API](https://aistudio.google.com/). Once you have the API key, create a `.env` file in the root directory and add the following environment variables provided in the `.env.example` file. Replace the values with your API key.
 
 ```bash
 GOOGLE_API_KEY=YOUR_GEMINI_API_KEY
