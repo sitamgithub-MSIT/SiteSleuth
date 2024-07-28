@@ -6,7 +6,7 @@ from langchain_google_genai import HarmBlockThreshold, HarmCategory
 # load environment variables
 load_dotenv()
 USER_AGENT = os.environ.get("USER_AGENT")
-genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
+genai.configure(api_key=os.environ.get("GOOGLE_API_KEY"))
 
 # Model settings
 embedding_model = "models/embedding-001"
