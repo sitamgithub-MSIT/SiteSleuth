@@ -1,6 +1,8 @@
 # SiteSleuth
 
-This project empowers users to get the most out of any website by analyzing its content and answering questions based on the information found. SiteSleuth utilizes an Artificial Conversational Entity powered by the Gemini API.
+This project empowers users to get the most out of any website by analyzing its content and answering questions based on the information found. SiteSleuth utilizes an Artificial Conversational Entity powered by the Gemini API. Below is a screenshot of SiteSleuth in action:
+
+![SiteSleuth](assets/SiteSleuth.png)
 
 ## Project Structure
 
@@ -36,7 +38,7 @@ The project is structured as follows:
 - `README.md`: This file contains the project documentation.
 - `LICENSE`: This file contains the project license.
 
-## Tech Stack
+## Technologies Used
 
 - Python: Python is used as the primary programming language for this project.
 - Gemini API: These APIs provide advanced natural language processing and computer vision capabilities.
@@ -46,6 +48,7 @@ The project is structured as follows:
 - Hugging Face Spaces: Hugging Face spaces is used for deployment of the streamlit application.
 - Docker: Docker is used to containerize the application.
 - Cloud Run: Google Cloud Run is used to deploy the containerized application.
+- Cloud Build: Google Cloud Build is used for setting up the CI/CD pipeline.
 
 ## Getting Started
 
@@ -54,15 +57,32 @@ To get started with this project, follow the steps below:
 1. Clone the repository: `git clone https://github.com/sitamgithub-MSIT/SiteSleuth.git`
 2. Change the directory: `cd SiteSleuth`
 3. Create a virtual environment: `python -m venv tutorial-env`
-4. Activate the virtual environment: `tutorial-env\Scripts\activate`
+4. Activate the virtual environment:
+   - Windows: `tutorial-env\Scripts\activate`
+   - Unix-based systems: `source tutorial-env/bin/activate`
 5. Install the required dependencies: `pip install -r requirements.txt`
 6. Run the Gradio application: `streamlit run app.py`
 
-Now, open up your local host and you should see the web application running. For more information, refer to the Streamlit documentation [here](https://docs.streamlit.io/). Also, a live version of the application can be found [here](https://sitammeur-sitesleuth.hf.space/) in the Hugging Face Spaces.
+**Note**: You need to have the Gemini API key to run the application. You can get the API key by signing up on the [Gemini API](https://geminiapi.com/). Once you have the API key, create a `.env` file in the root directory and add the following environment variables provided in the `.env.example` file. Replace the values with your API key.
+
+```bash
+GOOGLE_API_KEY=YOUR_GEMINI_API_KEY
+USER_AGENT=YOUR_USER_AGENT_NAME
+```
+
+Now, open up your local host and you should see the web application running. For more information, refer to the Streamlit documentation [here](https://docs.streamlit.io/). Also, a live version of the application can be found [here](https://sitammeur-sitesleuth.hf.space/) in the Hugging Face Spaces and [here](https://sitesleuth-a4zzrfnhrq-uc.a.run.app/) in the Google Cloud Run.
 
 ## Usage
 
 Once the application is up and running, you can interact with the conversational entity through the provided UI. It can analyze the content of websites and answer your questions based on the information found.
+
+### Example
+
+1. Open the application in your browser.
+2. Provide a website link in the input field.
+3. Hit the "Submit" button.
+4. Once it is "Done", you can ask questions in the chatbot.
+5. The chatbot will analyze the content and provide a detailed response.
 
 ## Contributing
 
