@@ -1,6 +1,8 @@
 # SiteSleuth
 
-This project empowers users to get the most out of any website by analyzing its content and answering questions based on the information found. SiteSleuth utilizes an Artificial Conversational Entity powered by the Gemini API. Below is a screenshot of SiteSleuth in action:
+This project empowers users to get the most out of any website by analyzing its content and answering questions based on the information found. SiteSleuth utilizes an Artificial Conversational Entity powered by the Gemini API. To know more about the project, refer to the [blog post](https://sitammeur.medium.com/how-to-create-an-ai-powered-website-analysis-chatbot-37d1ea8c4684).
+
+Below is a screenshot of SiteSleuth in action:
 
 ![SiteSleuth](assets/SiteSleuth.png)
 
