@@ -40,15 +40,15 @@ The project is structured as follows:
 
 ## Technologies Used
 
-- Python: Python is used as the primary programming language for this project.
-- Gemini API: These APIs provide advanced natural language processing and computer vision capabilities.
-- Langchain: Langchain is used for the RAG (Retrieval Augmented Generation) implementation.
-- Chroma DB: Chroma DB is used as the vector store for the embeddings.
-- Streamlit: Streamlit is used for building interactive UIs for the chat interface.
-- Hugging Face Spaces: Hugging Face spaces is used for deployment of the streamlit application.
-- Docker: Docker is used to containerize the application.
-- Cloud Run: Google Cloud Run is used to deploy the containerized application.
-- Cloud Build: Google Cloud Build is used for setting up the CI/CD pipeline.
+- **Python**: Python is used as the primary programming language for this project.
+- **Gemini API**: These APIs provide advanced natural language processing and computer vision capabilities.
+- **Langchain**: Langchain is used for the RAG (Retrieval Augmented Generation) implementation.
+- **Chroma DB**: Chroma DB is used as the vector store for the embeddings.
+- **Streamlit**: Streamlit is used for building interactive UIs for the chat interface.
+- **Hugging Face Spaces**: Hugging Face spaces is used for deployment of the streamlit application.
+- **Docker**: Docker is used to containerize the application.
+- **Cloud Run**: Google Cloud Run is used to deploy the containerized application.
+- **Cloud Build**: Google Cloud Build is used for setting up the CI/CD pipeline.
 
 ## Getting Started
 
@@ -91,3 +91,9 @@ Contributions are welcome! If you would like to contribute to this project, plea
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+If you have any questions or suggestions regarding the project, feel free to reach out to me on my GitHub profile.
+
+Happy coding! 🚀
