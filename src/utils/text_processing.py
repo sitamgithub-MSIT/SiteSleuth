@@ -19,7 +19,6 @@ def get_document_chunks(document: str) -> List[str]:
     Returns:
         List[str]: A list of strings representing the chunks of the document.
     """
-
     try:
         # Split the document into chunks using the RecursiveCharacterTextSplitter
         splitter = RecursiveCharacterTextSplitter(

@@ -21,7 +21,6 @@ def get_vector_store(chunks: List[str]):
     Returns:
         Chroma vector store: The created vector store.
     """
-
     try:
         # Create the embeddings
         embeddings = GoogleGenerativeAIEmbeddings(model=embedding_model)

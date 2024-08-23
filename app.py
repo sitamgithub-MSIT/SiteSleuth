@@ -1,4 +1,7 @@
 # Neccessary imports
+import warnings
+
+warnings.filterwarnings("ignore")
 import streamlit as st
 
 # Local imports
@@ -16,11 +19,7 @@ def main():
     The main function of the SiteSleuth application.
 
     This function sets up the page configuration, handles user input, and displays chat messages and bot responses.
-
-    Returns:
-        None
     """
-
     # Set the page configuration
     st.set_page_config(page_title="SiteSleuth", page_icon="🌐")
 

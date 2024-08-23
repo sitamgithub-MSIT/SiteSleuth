@@ -27,7 +27,6 @@ def get_conversational_chain():
     Returns:
         The conversational chain object.
     """
-
     # Define the prompt template
     prompt_template = """
     You are an intelligent web analysis assistant. Your task is to help users by answering their questions based on the content of a provided website. You should provide detailed and accurate answers based solely on the information available in the given context. If the answer is not available in the context, respond with, "The answer is not available in the provided context." Do not attempt to fabricate or guess answers.

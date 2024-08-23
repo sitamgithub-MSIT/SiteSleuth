@@ -1,6 +1,6 @@
 # SiteSleuth
 
-This project empowers users to get the most out of any website by analyzing its content and answering questions based on the information found. SiteSleuth utilizes an Artificial Conversational Entity powered by the Gemini API. To know more about the project, refer to the [blog post](https://sitammeur.medium.com/how-to-create-an-ai-powered-website-analysis-chatbot-37d1ea8c4684).
+This project empowers users to get the most out of any website by analyzing its content and answering questions based on the information found. SiteSleuth utilizes an Artificial Conversational Entity powered by the Gemini API. To know more about the project, refer to the [blog post](https://medium.com/google-cloud/how-to-create-an-ai-powered-website-analysis-chatbot-37d1ea8c4684).
 
 Below is a screenshot of SiteSleuth in action:
 
@@ -28,7 +28,7 @@ The project is structured as follows:
 
   - `config.py`: This file contains the configuration for the Gemini API.
   - `exception.py`: This file contains the exception handling for the project.
-  - `logger.py`: This file contains the logging configuration for the project.
+  - `logger.py`: This file contains the project's logging configuration.
 
 - `app.py`: This file contains the code for the Streamlit application.
 - `Dockerfile`: This file contains the Docker configuration for the project.
@@ -47,7 +47,6 @@ The project is structured as follows:
 - **Langchain**: Langchain is used for the RAG (Retrieval Augmented Generation) implementation.
 - **Chroma DB**: Chroma DB is used as the vector store for the embeddings.
 - **Streamlit**: Streamlit is used for building interactive UIs for the chat interface.
-- **Hugging Face Spaces**: Hugging Face spaces is used for deployment of the streamlit application.
 - **Docker**: Docker is used to containerize the application.
 - **Cloud Run**: Google Cloud Run is used to deploy the containerized application.
 - **Cloud Build**: Google Cloud Build is used for setting up the CI/CD pipeline.
@@ -72,7 +71,7 @@ GOOGLE_API_KEY=YOUR_GEMINI_API_KEY
 USER_AGENT=YOUR_USER_AGENT_NAME
 ```
 
-Now, open up your local host and you should see the web application running. For more information, refer to the Streamlit documentation [here](https://docs.streamlit.io/). Also, a live version of the application can be found [here](https://sitammeur-sitesleuth.hf.space/) in the Hugging Face Spaces and [here](https://sitesleuth-a4zzrfnhrq-uc.a.run.app/) in the Google Cloud Run.
+Now, open up your local host and you should see the web application running. For more information, refer to the Streamlit documentation [here](https://docs.streamlit.io/). Also, a live version of the application can be found [here](https://sitesleuth-a4zzrfnhrq-uc.a.run.app/) deployed on Google Cloud Run.
 
 ## Usage
 

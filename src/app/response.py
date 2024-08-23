@@ -19,11 +19,7 @@ def user_input(user_question: str) -> str:
 
     Returns:
         str: The generated response from the conversational AI model.
-
-    Raises:
-        Exception: Propagates exceptions from underlying operations, including loading models and generating responses.
     """
-
     try:
         # Create the embeddings
         embeddings = GoogleGenerativeAIEmbeddings(model=embedding_model)

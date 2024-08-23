@@ -15,7 +15,6 @@ def clear_chat_history():
     After calling this function, the chat history will be empty, and the initial message
     asking for a website link will be displayed.
     """
-
     try:
         # Reset the messages list in the session state
         st.session_state.messages = [INITIAL_MESSAGE]
