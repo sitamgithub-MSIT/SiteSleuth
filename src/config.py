@@ -28,3 +28,9 @@ safety_settings = {
     HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
     HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
 }
+
+# Langsmith tracing settings
+LANGCHAIN_TRACING_V2 = os.environ.get("LANGCHAIN_TRACING_V2")
+LANGCHAIN_ENDPOINT = os.environ.get("LANGCHAIN_ENDPOINT")
+LANGCHAIN_API_KEY = os.environ.get("LANGCHAIN_API_KEY")
+LANGCHAIN_PROJECT = os.environ.get("LANGCHAIN_PROJECT")
