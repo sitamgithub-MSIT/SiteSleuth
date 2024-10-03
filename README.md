@@ -111,7 +111,7 @@ Once the application is up and running, you can interact with the conversational
 
 ## Results
 
-The AI chatbot can analyze the content of any website and answer questions based on the information found. The chatbot can provide detailed responses to the user queries. For results, refer to the `assets` directory for the output screenshots, which show the chatbot responses for the given website as well as the model tracing.
+The AI chatbot can analyze the content of any website and answer questions based on the information found. The chatbot can provide detailed responses to the user queries. For results, refer to the `assets/` directory for the output screenshots, which show the chatbot responses for the given website as well as the model tracing.
 
 ## Conclusion
 
