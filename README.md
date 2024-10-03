@@ -10,16 +10,16 @@ Below is a screenshot of SiteSleuth in action:
 
 The project is structured as follows:
 
-- `assets`: This directory contains the output responses screenshots.
+- `assets/`: This directory contains the output responses screenshots.
 
-- `src`: This directory contains the source code for the project.
+- `src/`: This directory contains the source code for the project.
 
-  - `app`: This directory contains the code for actual model response generation.
+  - `app/`: This directory contains the code for actual model response generation.
 
     - `clear_history.py`: This file contains the code for clearing the chat history.
     - `response.py`: This file contains the code for the chatbot response generation.
 
-  - `utils`: This directory contains the utility functions for the project.
+  - `utils/`: This directory contains the utility functions for the project.
 
     - `chain.py`: This file contains the conversation chain implementation.
     - `data_loader.py`: This file contains the code for loading the website data.
