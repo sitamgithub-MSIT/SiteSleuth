@@ -10,7 +10,7 @@ Below is a screenshot of SiteSleuth in action:
 
 The project is structured as follows:
 
-- `assets/`: This directory contains the output responses screenshots.
+- `assets/`: This directory contains screenshots of the output responses.
 
 - `src/`: This directory contains the source code for the project.
 
@@ -23,10 +23,10 @@ The project is structured as follows:
 
     - `chain.py`: This file contains the conversation chain implementation.
     - `data_loader.py`: This file contains the code for loading the website data.
-    - `embeddings.py`: This file contains the code for the embeddings generation.
+    - `embeddings.py`: This file contains the code for embedding generation.
     - `text_processing.py`: This file contains the code for further text processing like text splitting, chunking, etc.
 
-  - `config.py`: This file contains the configuration for the Gemini API and LangSmith tracing.
+  - `config.py`: This file contains the Gemini API configuration and LangSmith tracing configuration.
   - `exception.py`: This file contains the exception handling for the project.
   - `logger.py`: This file contains the project's logging configuration.
 
