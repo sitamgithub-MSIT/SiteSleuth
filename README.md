@@ -26,7 +26,7 @@ The project is structured as follows:
     - `embeddings.py`: This file contains the code for embedding generation.
     - `text_processing.py`: This file contains the code for further text processing like text splitting, chunking, etc.
 
-  - `config.py`: This file contains the Gemini API configuration and LangSmith tracing configuration.
+  - `config.py`: This file contains the Gemini API and LangSmith tracing configurations.
   - `exception.py`: This file contains the exception handling for the project.
   - `logger.py`: This file contains the project's logging configuration.
 
@@ -34,7 +34,7 @@ The project is structured as follows:
 - `Dockerfile`: This file contains the Docker configuration for the project.
 - `.dockerignore`: This file contains the files to be ignored by Docker.
 - `.gitignore`: This file contains the files to be ignored by Git.
-- `.gcloudignore`: This file contains the files to be ignored by Google Cloud.
+- `.gcloudignore`: This file contains the files that Google Cloud will ignore.
 - `.env.example`: This file contains the environment variables required for the project.
 - `requirements.txt`: This file contains the required dependencies for the project.
 - `README.md`: This file contains the project documentation.
@@ -46,7 +46,7 @@ The project is structured as follows:
 - **Gemini API**: These APIs provide advanced natural language processing and computer vision capabilities.
 - **Langchain**: Langchain is used for the RAG (Retrieval Augmented Generation) implementation.
 - **Chroma DB**: Chroma DB is used as the vector store for the embeddings.
-- **Streamlit**: Streamlit is used for building interactive UIs for the chat interface.
+- **Streamlit**: Streamlit is used to build interactive UIs for the chat interface.
 - **Docker**: Docker is used to containerize the application.
 - **Cloud Run**: Google Cloud Run is used to deploy the containerized application.
 - **Cloud Build**: Google Cloud Build is used for setting up the CI/CD pipeline.
