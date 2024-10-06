@@ -45,10 +45,10 @@ The project is structured as follows:
 - **Python**: Python is used as the primary programming language for this project.
 - **Gemini API**: These APIs provide advanced natural language processing and computer vision capabilities.
 - **Langchain**: Langchain is used for the RAG (Retrieval Augmented Generation) implementation.
-- **Chroma DB**: Chroma DB is used as the vector store for the embeddings.
+- **Chroma DB**: Chroma DB is the vector store for the embeddings.
 - **Streamlit**: Streamlit is used to build interactive UIs for the chat interface.
 - **Docker**: Docker is used to containerize the application.
-- **Cloud Run**: Google Cloud Run is used to deploy the containerized application.
+- **Cloud Run**: Google Cloud Run deploys the containerized application.
 - **Cloud Build**: Google Cloud Build is used for setting up the CI/CD pipeline.
 - **LangSmith**: LangSmith is used for the tracing of the model calls.
 
