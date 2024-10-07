@@ -49,8 +49,8 @@ The project is structured as follows:
 - **Streamlit**: Streamlit is used to build interactive UIs for the chat interface.
 - **Docker**: Docker is used to containerize the application.
 - **Cloud Run**: Google Cloud Run deploys the containerized application.
-- **Cloud Build**: Google Cloud Build is used to set up the CI/CD pipeline.
-- **LangSmith**: LangSmith is used for the tracing of the model calls.
+- **Cloud Build**: Google Cloud Build sets up the CI/CD pipeline.
+- **LangSmith**: LangSmith is used to trace the model calls.
 
 ## Getting Started
 
