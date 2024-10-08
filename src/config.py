@@ -9,7 +9,7 @@ USER_AGENT = os.environ.get("USER_AGENT")
 genai.configure(api_key=os.environ.get("GOOGLE_API_KEY"))
 
 # Model settings
-embedding_model = "models/embedding-004"
+embedding_model = "models/embedding-001"
 qa_model = "gemini-1.5-pro"
 
 # Chroma db settings
