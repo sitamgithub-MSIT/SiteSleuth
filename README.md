@@ -4,13 +4,13 @@ This project empowers users to get the most out of any website by analyzing its 
 
 Below is a screenshot of SiteSleuth in action:
 
-![SiteSleuth](assets/SiteSleuth.png)
+![SiteSleuth](assets/testing/SiteSleuth.png)
 
 ## Project Structure
 
 The project is structured as follows:
 
-- `assets/`: This directory contains screenshots of the output responses.
+- `assets/`: This directory contains screenshots of the output responses and assets regarding tracing and deployment.
 
 - `src/`: This directory contains the source code for the project.
 
