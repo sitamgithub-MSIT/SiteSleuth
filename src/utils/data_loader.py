@@ -29,6 +29,7 @@ def get_web_document(website_url: str) -> Optional[str]:
         # If the website URL ends with ".pdf", load the document using PyPDFLoader
         if website_url.endswith(".pdf"):
             loader = PyPDFLoader(website_url, extract_images=True)
+            document = loader.load()
 
         # Otherwise, load the document using WebBaseLoader
         else:
