@@ -1,7 +1,7 @@
 # Neccessary imports
 import warnings
-
 warnings.filterwarnings("ignore")
+
 import streamlit as st
 
 # Local imports
